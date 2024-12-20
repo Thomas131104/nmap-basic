@@ -12,9 +12,7 @@ nmap.add_argument('-sS', action='store_true', help="Quét SYN (Theo mặc địn
 nmap.add_argument('-sT', action='store_true', help="Quét TCP")
 nmap.add_argument('-sU', action='store_true', help="Quét UDP")
 
-
 args = nmap.parse_args()
-
 
 def main():
     try:
